@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "sandboxkh",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "AL: Generated Download Symbols request",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "SandboxKH",
+            "tenant": "54bbaeee-1047-4914-bbbf-cf0fde033b7c"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "3e19ed05-b968-4fda-a395-ef7048382767",
+    "name": "MouchProject",
+    "publisher": "YutMouch Publisher",
+    "version": "26.0.0.5",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "26.3.36158.36193",
+    "idRanges": [
+        {
+            "from": 50300,
+            "to": 50350
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "15.0",
+    "features": [
+        "NoImplicitWith"
+    ]
+}
