@@ -1,0 +1,19 @@
+namespace MouchProject.MouchProject;
+
+codeunit 50325 Test
+{
+    SingleInstance = true;
+
+    var
+        Value: Text;
+
+    procedure Set(Val: text)
+    begin
+        Value := Val;
+    end;
+
+    procedure Get(): Text
+    begin
+        exit(Value)
+    end;
+}
