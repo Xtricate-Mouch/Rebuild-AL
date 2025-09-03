@@ -16,4 +16,14 @@ codeunit 50325 Test
     begin
         exit(Value)
     end;
+
+    // for each
+    procedure PrintCustomerName(CustomerNames: List of [Text])
+    var
+        name: Text;
+    begin
+        foreach name in CustomerNames do
+            Message(name);
+    end;
+
 }
