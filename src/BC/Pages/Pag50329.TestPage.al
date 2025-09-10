@@ -22,6 +22,16 @@ page 50329 "Test Page"
                     loop.Run()
                 end;
             }
+            action(sum)
+            {
+                Caption = 'Sum';
+                trigger OnAction()
+                var
+                    sum: Codeunit LoopFor;
+                begin
+                    sum.add(10, 5);
+                end;
+            }
         }
     }
 }

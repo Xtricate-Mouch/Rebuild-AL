@@ -14,4 +14,15 @@ codeunit 50330 LoopFor
 
     var
         iterator: Integer;
+
+
+    //sum two number
+
+    procedure add(num1: Integer; num2: Integer)
+    var
+        total: Integer;
+    begin
+        total := num1 + num2;
+        Message('Sum of %1,%2 = %3', num1, num2, total);
+    end;
 }
