@@ -15,14 +15,13 @@ pageextension 50320 "Standard Dailog CustomerExt" extends "Customer List"
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedIsBig = true;
-
                 trigger OnAction()
                 var
                     SD: Page "Standard Dailog Test";
                 begin
                     SD.Setup('Mouch', 'Banteay Meanchey', 'Cambodia');
                     if SD.RunModal() = Action::OK then
-                        Message('OK');
+                        Message('%1,%2,%3', SD.GetX(), SD.GetY(), SD.GetZ());
                 end;
             }
         }
