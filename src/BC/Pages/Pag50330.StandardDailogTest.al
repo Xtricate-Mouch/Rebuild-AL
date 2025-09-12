@@ -36,7 +36,22 @@ page 50330 "Standard Dailog Test"
         x := _x;
         y := _y;
         z := _z;
-        CurrPage.Update();
+
+    end;
+
+    procedure GetX(): text
+    begin
+        exit(x);
+    end;
+
+    procedure GetY(): text
+    begin
+        exit(y);
+    end;
+
+    procedure GetZ(): text
+    begin
+        exit(z);
     end;
 
     var
