@@ -15,7 +15,6 @@ codeunit 50330 LoopFor
     var
         iterator: Integer;
 
-
     //sum two number
 
     procedure add(num1: Integer; num2: Integer)
