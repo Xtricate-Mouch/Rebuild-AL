@@ -24,6 +24,10 @@ pageextension 50320 "Standard Dailog CustomerExt" extends "Customer List"
                         Message('%1,%2,%3', SD.GetX(), SD.GetY(), SD.GetZ());
                 end;
             }
+            action(testagin)
+            {
+                Caption = 'aa';
+            }
         }
     }
 }
